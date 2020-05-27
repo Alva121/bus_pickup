@@ -30,7 +30,7 @@ $errorMessage = $_GET['errorMessage'];
 <head>
 	<title>Registration</title>
 <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/pulse/bootstrap.min.css" rel="stylesheet" integrity="sha384-FnujoHKLiA0lyWE/5kNhcd8lfMILbUAZFAT89u11OhZI7Gt135tk3bGYVBC2xmJ5" crossorigin="anonymous">
-  
+
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -118,11 +118,11 @@ $errorMessage = $_GET['errorMessage'];
             <div class="form-group">
                <label for="exampleInputEmail2">Last name</label>
                <input type="text" name="lname" class="form-control" id="exampleInputEmail2" placeholder="Last name">
-            </div>                
+            </div>
               </div>
             </div>
 <div class="row">
-  <div class="col"> 
+  <div class="col">
             <div class="form-group">
                <label for="exampleInputEmail2">Phone</label>
                <input type="text" name="phone" class="form-control" id="exampleInputEmail2" placeholder="Phone">
@@ -132,11 +132,11 @@ $errorMessage = $_GET['errorMessage'];
             <div class="form-group">
                <label for="exampleInputEmail2">Email</label>
                <input type="email" name="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
-            </div>   
+            </div>
   </div>
 </div>
 <div class="row">
-  <div class="col"> 
+  <div class="col">
             <div class="form-group">
                <label for="exampleInputEmail2">Parent name</label>
                <input type="text" name="gname" class="form-control" id="exampleInputEmail2" placeholder="Parent name">
@@ -146,7 +146,7 @@ $errorMessage = $_GET['errorMessage'];
             <div class="form-group">
                <label for="exampleInputEmail2">parent Email</label>
                <input type="email" name="g_email" class="form-control" id="exampleInputEmail2" placeholder="Parent Email">
-            </div>   
+            </div>
   </div>
 </div>
 <div class="row">
@@ -154,14 +154,15 @@ $errorMessage = $_GET['errorMessage'];
             <div class="form-group">
                <label for="exampleInputEmail2">Password</label>
                <input type="password" name="password" class="form-control" id="exampleInputEmail2" placeholder="Parent Email">
-            </div> 
+            </div>
   </div>
   <div class="col">
         <div class="form-group">
           <label for="exampleFormControlSelect1">Pickup Point</label>
           <select class="form-control" name="pick" id="exampleFormControlSelect1">
+              <option value="nagara">Nagara</option>
               <option value="Mura">Mura</option>
-              <option value="Kabala">kabala</option>
+              <option value="Kabala">kabaka</option>
               <option value="Mithur">Mithur</option>
               <option value="Mani">Mani</option>
               <option value="Kalladka">Kalladka</option>
